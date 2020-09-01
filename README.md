@@ -1,8 +1,12 @@
 # Template Engine Employee Summary
 Application that generates an HTML webpage to display a software engineering team.  Application ideally will pass unit tests.
 
-## Screenshot
+## Screenshots
+![Engine Employee Summary](homework10.png)
 ![Engine Employee Summary](myteam.png)
+
+## Video
+![Engine Employee Summary](video.gif)
 
 ## Requirements
 
