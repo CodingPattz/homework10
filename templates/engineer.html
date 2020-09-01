@@ -1,0 +1,17 @@
+    <div class="col-md-4">
+        <div class="card bg-dark border-light shadow mb-3" style="max-width: 18rem; height: 22rem;">
+            <div class="card-header text-warning">
+                <h2 id="name"> {{ name }} </h2>
+                <h3><span class="fas fa-drafting-compass"></span> {{ role }} </h3>
+            </div>
+            <div class="card-body bg-white align-content-center flex-wrap">
+                <div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" id="id">ID: {{ id }}</li>
+                        <li class="list-group-item" id="email">Email: <a href="mailto:{{ email }}">{{ email }}</a><</li>
+                        <li class="list-group-item" id="property"> GitHub: <a href="https://github.com/{{ github }}" target="_blank" rel="noopener noreferrer">{{ github }}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
