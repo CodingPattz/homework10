@@ -1,7 +1,12 @@
-# Template-Engine-Employee-Summary
+# Template Engine Employee Summary
 Application that generates an HTML webpage to display a software engineering team.  Application ideally will pass unit tests.
 
-# lib folder - for classes and helper code
+## Screenshot
+![Engine Employee Summary](myteam.png)
+
+## Requirements
+
+### lib folder - for classes and helper code
 - 4 classes: Employee, Manager, Engineer, Intern
 
 1. EMPLOYEE class - PARENT CLASS! Properties and methods include:
@@ -30,14 +35,14 @@ Application that generates an HTML webpage to display a software engineering tea
   + getSchool()
   + getRole() // Overridden to return 'Intern'
 
-# Output - rendered output
+### Output - rendered output
  * Team HTML - nicely formatted team roster
    + Name
    + Role
    + ID
    + Role-specific property (School, link to GitHub profile, or office number)
 
-# Templates - HTML template for each type of user
+### Templates - HTML template for each type of user
  * Use the following templates:
   + main.html
   + engineer.html
@@ -45,13 +50,8 @@ Application that generates an HTML webpage to display a software engineering tea
   + manager.html
  * Add placeholder character that helps program identify were te dynamic markup begins and ends.  See Test files for names.
 
-# App.js
+### App.js
  * Runs the application
-
-# Testing
-
-# Once Completed
-- Add this app and the last one (Developer Profile Generator) to my professional profile.
 
 
 
